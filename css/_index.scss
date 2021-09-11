@@ -1,0 +1,128 @@
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+.wrap {
+  background: #f0f0f0;
+  padding: 53px 0 40px 0;
+}
+.AQIHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  select {
+    width: 350px;
+    height: 56px;
+    font-size: 16px;
+    font-family: 'Noto Sans TC';
+    font-weight: bold;
+    padding: 0 20px;
+    border: 3px solid #000;
+    position: relative;
+  }
+  .title {
+    line-height: 1;
+    margin-bottom: 12px;
+    span {
+      margin-left: 11px;
+      font-family: 'Noto Sans TC';
+    }
+  }
+}
+.AQHRule {
+  width: 730px;
+  td, th {
+    border: 3px solid #000;
+    vertical-align: middle;
+    text-align: center;
+    width: 16.6667%;
+  }
+  td {
+    height: 56px;
+    background: #fff;
+  }
+}
+.AQIDataArea {
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .line {
+    width: 786px;
+    height: 1px;
+    border-top: 3px dotted #000;
+  }
+  .updateDate {
+    display: flex;
+    .updateText {
+      margin-right: 13px;
+    }
+    span {
+      margin-left: 13px;
+    }
+  }
+}
+.card {
+  height: 97px;
+  border: 3px solid #000;
+  display: flex;
+  font-size: 36px;
+  h3, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .district {
+    width: 187px;
+  }
+  .AQIValue {
+    width: 157px;
+    border-left: 3px solid #000;
+  }
+}
+.dataList {
+  padding: 30px;
+  border: 3px solid #000;
+  border-top: none;
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #000;
+    &:nth-child(1) {
+      padding-top: 6px;
+    }
+    &:nth-last-child(1) {
+      padding-bottom: 6px;
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+  }
+  h4 {
+    line-height: 1;
+  }
+  .englishName {
+    margin-left: 8px;
+  }
+  .sub {
+    font-size: 12px;
+  }
+}
+.AQICardList {
+  width: 730px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .card {
+    margin-bottom: 32px;
+  }
+}
+.footer {
+  background: #000;
+  padding: 6px 0;
+  font-family: 'Open Sans';
+}

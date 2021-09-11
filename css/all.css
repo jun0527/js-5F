@@ -1,0 +1,367 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.bg-green {
+  background: #95F084;
+}
+
+.text-green {
+  color: #95F084;
+}
+
+.bg-orange-light {
+  background: #FFE695;
+}
+
+.text-orange-light {
+  color: #FFE695;
+}
+
+.bg-orange {
+  background: #FFAF6A;
+}
+
+.text-orange {
+  color: #FFAF6A;
+}
+
+.bg-red {
+  background: #FF5757;
+}
+
+.text-red {
+  color: #FF5757;
+}
+
+.bg-blue {
+  background: #9777FF;
+}
+
+.text-blue {
+  color: #9777FF;
+}
+
+.bg-purple {
+  background: #AD1774;
+}
+
+.text-purple {
+  color: #AD1774;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.fs-1 {
+  font-size: 3rem;
+}
+
+.fs-2 {
+  font-size: 2.5rem;
+}
+
+.fs-3 {
+  font-size: 2.25rem;
+}
+
+.fs-4 {
+  font-size: 1.5rem;
+}
+
+.fs-5 {
+  font-size: 1rem;
+}
+
+.fs-6 {
+  font-size: 0.625rem;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jc-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ai-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.ai-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.wrap {
+  background: #f0f0f0;
+  padding: 53px 0 40px 0;
+}
+
+.AQIHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.AQIHeader select {
+  width: 350px;
+  height: 56px;
+  font-size: 16px;
+  font-family: 'Noto Sans TC';
+  font-weight: bold;
+  padding: 0 20px;
+  border: 3px solid #000;
+  position: relative;
+}
+
+.AQIHeader .title {
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.AQIHeader .title span {
+  margin-left: 11px;
+  font-family: 'Noto Sans TC';
+}
+
+.AQHRule {
+  width: 730px;
+}
+
+.AQHRule td, .AQHRule th {
+  border: 3px solid #000;
+  vertical-align: middle;
+  text-align: center;
+  width: 16.6667%;
+}
+
+.AQHRule td {
+  height: 56px;
+  background: #fff;
+}
+
+.AQIDataArea .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 32px;
+}
+
+.AQIDataArea .line {
+  width: 786px;
+  height: 1px;
+  border-top: 3px dotted #000;
+}
+
+.AQIDataArea .updateDate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.AQIDataArea .updateDate .updateText {
+  margin-right: 13px;
+}
+
+.AQIDataArea .updateDate span {
+  margin-left: 13px;
+}
+
+.card {
+  height: 97px;
+  border: 3px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 36px;
+}
+
+.card h3, .card p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .district {
+  width: 187px;
+}
+
+.card .AQIValue {
+  width: 157px;
+  border-left: 3px solid #000;
+}
+
+.dataList {
+  padding: 30px;
+  border: 3px solid #000;
+  border-top: none;
+}
+
+.dataList li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #000;
+}
+
+.dataList li:nth-child(1) {
+  padding-top: 6px;
+}
+
+.dataList li:nth-last-child(1) {
+  padding-bottom: 6px;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.dataList h4 {
+  line-height: 1;
+}
+
+.dataList .englishName {
+  margin-left: 8px;
+}
+
+.dataList .sub {
+  font-size: 12px;
+}
+
+.AQICardList {
+  width: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.AQICardList .card {
+  margin-bottom: 32px;
+}
+
+.footer {
+  background: #000;
+  padding: 6px 0;
+  font-family: 'Open Sans';
+}
+/*# sourceMappingURL=all.css.map */

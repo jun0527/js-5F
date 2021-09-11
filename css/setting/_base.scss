@@ -1,0 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,38 @@
+@each $name, $color in $colors {
+  .bg-#{$name} {
+    background: $color;
+  }
+  .text-#{$name} {
+    color: $color;
+  }
+}
+@each $name, $key in $font-size {
+  .fs-#{$name} {
+    font-size: $key;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+.jc {
+  &-between {
+    justify-content: space-between;
+  }
+}
+.ai {
+  &-end {
+    align-items: flex-end;
+  }
+  &-start {
+    align-items: flex-start;
+  }
+}
+.fw {
+  &-400 {
+    font-weight: 400;
+  }
+  &-bold {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,18 @@
+$colors: (
+  green: #95F084,
+  orange-light: #FFE695,
+  orange: #FFAF6A,
+  red: #FF5757,
+  blue: #9777FF,
+  purple: #AD1774,
+  white: #fff,
+);
+$font-size-base: 1rem;
+$font-size: (
+  1: $font-size-base * 3,//48
+  2: $font-size-base * 2.5,//40
+  3: $font-size-base * 2.25,//36
+  4: $font-size-base * 1.5,//24
+  5: $font-size-base,
+  6: $font-size-base * 0.625,//10
+);
